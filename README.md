@@ -3,5 +3,5 @@
 For malware research
 
 ## License
-`yara rules` are open-sourced software licensed under the [MIT License](LICENSE)
+`yara rules` are licensed under the [MIT License](LICENSE)
 
