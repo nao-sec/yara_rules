@@ -148,3 +148,15 @@ rule RoyalRoad_v7e
     condition:
         $RTF at 0 and $S1 
 }
+
+
+rule RoyalRoad_v7b2
+{
+    strings:
+        $S1= {7B 5C 72 65 73 75 6C 74 20 20 7D 7D 7B 5C 6F 62 6A 65 63 74 5C 6F 62 6A 6F 63 78 7B 5C 6F 62 6A 64 61 74 61 20 20 5C 62 69 6C 20 31 61 36 33 37 38 63 32}
+        $RTF= "{\\rt"
+
+    condition:
+        $RTF at 0 and $S1 
+}
+

@@ -60,3 +60,14 @@ rule RoyalRoad_code_pattern4d
     condition:
         $RTF at 0 and $S1 
 }
+
+rule RoyalRoad_code_pattern4e
+{
+    strings:
+        $S1= {35 38 34 32 34 32 65 62 30 36 34 32 34 32 0A 34 32 33 35 33 35 33 33 33 36 32 30 34 34 36 30 0A 36 30 36 30 36 30 36 30 36 30 36 30 36 30 36 30 0A 36 31 36 31 36 31 36 31 36 31 36 31 36 31 36 31 36 31 36 31 36 31 36 31 36 7D 31 36 31 36 31 36 31}
+        $RTF= "{\\rt"
+
+    condition:
+        $RTF at 0 and $S1 
+}
+
