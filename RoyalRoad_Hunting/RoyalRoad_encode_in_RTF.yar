@@ -9,6 +9,7 @@ rule RoyalRoad_encode_in_RTF
         $enc_hex_6 = "A9A46EFE" nocase
         $enc_hex_7 = "945FDAD8" nocase
         $enc_hex_8 = "95A2748E" nocase
+        $enc_hex_9 = "4DA2EE67" nocase
 
         $RTF= "{\\rt"
         
